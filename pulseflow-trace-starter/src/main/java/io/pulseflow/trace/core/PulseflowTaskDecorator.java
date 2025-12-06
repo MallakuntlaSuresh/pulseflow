@@ -9,7 +9,6 @@ public class PulseflowTaskDecorator implements TaskDecorator {
 
     @Override
     public Runnable decorate(Runnable runnable) {
-        // Capture parent thread MDC
         Map<String, String> contextMap = MDC.getCopyOfContextMap();
 
         return () -> {

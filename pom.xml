@@ -11,6 +11,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>pulseflow-protocol</module>
         <module>pulseflow-trace-starter</module>
         <module>pulseflow-collector</module>
     </modules>

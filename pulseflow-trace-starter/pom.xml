@@ -25,6 +25,11 @@
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-aop</artifactId>
 </dependency>
+<dependency>
+    <groupId>io.pulseflow</groupId>
+    <artifactId>pulseflow-protocol</artifactId>
+    <version>${project.version}</version>
+</dependency>
 
     </dependencies>
 </project>
